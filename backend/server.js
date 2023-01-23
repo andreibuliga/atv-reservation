@@ -4,7 +4,7 @@ require('colors')
 require('dotenv').config()
 const { errorHandler } = require('./middleware/errorMiddleware')
 const connectDB = require('./config/db')
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT
 const generateSitemap = require('./sitemap')
 
 generateSitemap()
