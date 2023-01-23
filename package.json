@@ -1,7 +1,7 @@
 {
-  "name": "support-desk",
+  "name": "atv-reservation",
   "version": "1.0.0",
-  "description": "Support ticket app",
+  "description": "ATV Reservation Platform",
   "main": "server.js",
   "scripts": {
     "start": "node backend/server.js",
@@ -10,8 +10,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
-  "author": "Brad Traversy",
-  "license": "MIT",
+  "author": "Andrei Buliga",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
