@@ -5,6 +5,7 @@ import { FaUser } from 'react-icons/fa'
 import { useSelector, useDispatch } from 'react-redux'
 import { register } from '../features/auth/authSlice'
 import Spinner from '../components/Spinner'
+import { Link } from 'react-router-dom'
 
 function Register() {
   const [formData, setFormData] = useState({
@@ -134,17 +135,13 @@ function Register() {
               prelucrarea, transmiterea şi stocarea datelor cu caracter
               personal.
               <br />
-              <a
-                style={{
-                  textDecoration: 'none',
-                  fontWeight: 'bold',
-                  color: 'black',
-                  '&:visited': { color: 'black', textDecoration: 'none' },
-                }}
-                href='https://atv-reservation.webflow.io/termeni-si-conditii'
+              <Link
+                to='https://atv-reservation.webflow.io/termeni-si-conditii'
+                rel='noopener noreferrer'
+                target='_blank'
               >
                 Cititi Termenii si Conditile
-              </a>
+              </Link>
             </p>
           </div>
         </form>
