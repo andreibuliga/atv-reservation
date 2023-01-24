@@ -5,9 +5,9 @@ import { InlineWidget } from 'react-calendly'
 
 function NewTicket() {
   const { user } = useSelector((state) => state.auth)
-
-  const [name] = useState(user.name)
-  const [email] = useState(user.email)
+  // To Use LocalStorage
+  const [name] = useState(user.name).toString()
+  const [email] = useState(user.email).toString()
   const [product, setProduct] = useState('ATV1')
 
   return (
