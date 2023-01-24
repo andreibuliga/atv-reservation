@@ -6,8 +6,9 @@ import { InlineWidget } from 'react-calendly'
 function NewTicket() {
   const { user } = useSelector((state) => state.auth)
   // To Use LocalStorage
-  const [name] = useState(user.name).toString()
-  const [email] = useState(user.email).toString()
+  const [name] = useState(JSON.stringify(user.name))
+  const [email] = useState(JSON.stringify(user.email))
+
   const [product, setProduct] = useState('ATV1')
 
   return (
@@ -66,8 +67,8 @@ function NewTicket() {
                   className='calendly'
                   url='https://calendly.com/andrei-buliga-dev/rezervare-atv-1'
                   prefill={{
-                    email: { email },
-                    name: { name },
+                    email: email,
+                    name: name,
                   }}
                   style={{ zIndex: 0 }}
                 />
