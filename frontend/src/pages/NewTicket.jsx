@@ -31,7 +31,7 @@ function NewTicket() {
               <option value='ATV1'>ATV CFMOTO CForce 450L E5 - 1</option>
               <option value='ATV2'>ATV CFMOTO CForce 450L E5 - 2</option>
               <option value='ATV3'>ATV CFMOTO CForce 450L E5 - 3</option>
-              <option value='ATV4'>ATV CFMOTO CForce 450L E - 4</option>
+              <option value='ATV4'>ATV CFMOTO CForce 450L E5 - 4</option>
               <option value='Bike1'>
                 Bicicleta Electrica Neuzer e-city Zagon - 1
               </option>
@@ -128,7 +128,7 @@ function NewTicket() {
                 ></div>
                 <InlineWidget
                   className='calendly'
-                  url='https://calendly.com/atvoff-road-rezervari/atv-4'
+                  url='https://calendly.com/atvoff-road-rezervari/atv-3'
                   prefill={{
                     email: { email },
                     name: { name },
@@ -160,7 +160,7 @@ function NewTicket() {
                 ></div>
                 <InlineWidget
                   className='calendly'
-                  url='https://calendly.com/atvoff-road-rezervari/bicicleta-1'
+                  url='https://calendly.com/atvoff-road-rezervari/atv-4'
                   prefill={{
                     email: { email },
                     name: { name },
@@ -192,7 +192,7 @@ function NewTicket() {
                 ></div>
                 <InlineWidget
                   className='calendly'
-                  url='https://calendly.com/atvoff-road-rezervari/bicicleta-2'
+                  url='https://calendly.com/atvoff-road-rezervari/bicicleta-1'
                   prefill={{
                     email: { email },
                     name: { name },
@@ -224,7 +224,7 @@ function NewTicket() {
                 ></div>
                 <InlineWidget
                   className='calendly'
-                  url='https://calendly.com/andrei-buliga-dev/rezervare-bike2'
+                  url='https://calendly.com/atvoff-road-rezervari/bicicleta-1'
                   prefill={{
                     email: { email },
                     name: { name },
