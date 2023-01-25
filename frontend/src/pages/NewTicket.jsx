@@ -32,11 +32,11 @@ function NewTicket() {
               <option value='ATV2'>ATV CFMOTO CForce 450L E5 - 2</option>
               <option value='ATV3'>ATV CFMOTO CForce 450L E5 - 3</option>
               <option value='ATV4'>ATV CFMOTO CForce 450L E - 4</option>
-              <option value='Bike2'>
-                Bicicleta Electrica Nezter e-city Zagon - 1
+              <option value='Bike1'>
+                Bicicleta Electrica Neuzer e-city Zagon - 1
               </option>
-              <option value='Bike3'>
-                Bicicleta Electrica Nezter e-city Zagon - 2
+              <option value='Bike2'>
+                Bicicleta Electrica Neuzer e-city Zagon - 2
               </option>
             </select>
           </div>
@@ -64,7 +64,7 @@ function NewTicket() {
                 ></div>
                 <InlineWidget
                   className='calendly'
-                  url='https://calendly.com/andrei-buliga-dev/rezervare-atv-1'
+                  url='https://calendly.com/atvoff-road-rezervari/atv-1'
                   prefill={{
                     email: email,
                     name: name,
@@ -96,7 +96,7 @@ function NewTicket() {
                 ></div>
                 <InlineWidget
                   className='calendly'
-                  url='https://calendly.com/andrei-buliga-dev/rezervare-atv-2'
+                  url='https://calendly.com/atvoff-road-rezervari/atv-2'
                   prefill={{
                     email: { email },
                     name: { name },
@@ -128,7 +128,7 @@ function NewTicket() {
                 ></div>
                 <InlineWidget
                   className='calendly'
-                  url='https://calendly.com/andrei-buliga-dev/rezervare-atv-3'
+                  url='https://calendly.com/atvoff-road-rezervari/atv-4'
                   prefill={{
                     email: { email },
                     name: { name },
@@ -160,7 +160,7 @@ function NewTicket() {
                 ></div>
                 <InlineWidget
                   className='calendly'
-                  url='https://calendly.com/andrei-buliga-dev/rezervare-atv-4'
+                  url='https://calendly.com/atvoff-road-rezervari/bicicleta-1'
                   prefill={{
                     email: { email },
                     name: { name },
@@ -192,7 +192,7 @@ function NewTicket() {
                 ></div>
                 <InlineWidget
                   className='calendly'
-                  url='https://calendly.com/andrei-buliga-dev/rezervare-bike1'
+                  url='https://calendly.com/atvoff-road-rezervari/bicicleta-2'
                   prefill={{
                     email: { email },
                     name: { name },

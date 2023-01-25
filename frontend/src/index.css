@@ -382,6 +382,33 @@ footer {
   width: 100%;
 }
 
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 100px solid white;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  border-radius: 10px !important;
+}
+
+@media only screen and (max-width: 400px) {
+  .triangle {
+    margin-right: -10px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 11% 49%);
+  }
+
+  .container {
+    position: relative;
+    padding: 2px;
+    border-radius: 5px;
+    z-index: 1;
+  }
+}
+
 .VJL48qbQzWENTFAh1Knk.f3c_Dda7HKHqraeedxG1 {
   display: none !important;
 }
