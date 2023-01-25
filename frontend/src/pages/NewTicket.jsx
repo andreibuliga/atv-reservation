@@ -224,7 +224,7 @@ function NewTicket() {
                 ></div>
                 <InlineWidget
                   className='calendly'
-                  url='https://calendly.com/atvoff-road-rezervari/bicicleta-1'
+                  url='https://calendly.com/atvoff-road-rezervari/bicicleta-2'
                   prefill={{
                     email: { email },
                     name: { name },
