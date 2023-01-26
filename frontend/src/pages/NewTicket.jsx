@@ -98,8 +98,8 @@ function NewTicket() {
                   className='calendly'
                   url='https://calendly.com/atvoff-road-rezervari/atv-2'
                   prefill={{
-                    email: { email },
-                    name: { name },
+                    email: email,
+                    name: name,
                   }}
                   style={{ zIndex: 0 }}
                 />
@@ -130,8 +130,8 @@ function NewTicket() {
                   className='calendly'
                   url='https://calendly.com/atvoff-road-rezervari/atv-3'
                   prefill={{
-                    email: { email },
-                    name: { name },
+                    email: email,
+                    name: name,
                   }}
                   style={{ zIndex: 0 }}
                 />
@@ -162,8 +162,8 @@ function NewTicket() {
                   className='calendly'
                   url='https://calendly.com/atvoff-road-rezervari/atv-4'
                   prefill={{
-                    email: { email },
-                    name: { name },
+                    email: email,
+                    name: name,
                   }}
                   style={{ zIndex: 0 }}
                 />
@@ -194,8 +194,8 @@ function NewTicket() {
                   className='calendly'
                   url='https://calendly.com/atvoff-road-rezervari/bicicleta-1'
                   prefill={{
-                    email: { email },
-                    name: { name },
+                    email: email,
+                    name: name,
                   }}
                   style={{ zIndex: 0 }}
                 />
@@ -226,8 +226,8 @@ function NewTicket() {
                   className='calendly'
                   url='https://calendly.com/atvoff-road-rezervari/bicicleta-2'
                   prefill={{
-                    email: { email },
-                    name: { name },
+                    email: email,
+                    name: name,
                   }}
                   style={{ zIndex: 0 }}
                 />
