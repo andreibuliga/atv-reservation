@@ -54,17 +54,15 @@ function NewTicket() {
                   style={{
                     position: 'absolute',
                     backgroundColor: 'white',
-                    width: '0',
-                    height: '0',
-                    borderLeft: '100px solid transparent',
-                    borderRight: '100px solid transparent',
-                    borderBottom: '200px solid white',
+                    width: '200px',
+                    height: '200px',
+                    clipPath: 'polygon(0 0, 100% 0, 100% 100%)',
+                    WebkitClipPath: 'polygon(0 0, 100% 0, 100% 100%)',
                     right: '0',
                     top: '0',
                     zIndex: 1,
                   }}
                 ></div>
-
                 <InlineWidget
                   className='calendly'
                   url='https://calendly.com/atvoff-road-rezervari/atv-1'
@@ -89,17 +87,15 @@ function NewTicket() {
                   style={{
                     position: 'absolute',
                     backgroundColor: 'white',
-                    width: '0',
-                    height: '0',
-                    borderLeft: '100px solid transparent',
-                    borderRight: '100px solid transparent',
-                    borderBottom: '200px solid white',
+                    width: '200px',
+                    height: '200px',
+                    clipPath: 'polygon(0 0, 100% 0, 100% 100%)',
+                    WebkitClipPath: 'polygon(0 0, 100% 0, 100% 100%)',
                     right: '0',
                     top: '0',
                     zIndex: 1,
                   }}
                 ></div>
-
                 <InlineWidget
                   className='calendly'
                   url='https://calendly.com/atvoff-road-rezervari/atv-2'
@@ -124,17 +120,15 @@ function NewTicket() {
                   style={{
                     position: 'absolute',
                     backgroundColor: 'white',
-                    width: '0',
-                    height: '0',
-                    borderLeft: '100px solid transparent',
-                    borderRight: '100px solid transparent',
-                    borderBottom: '200px solid white',
+                    width: '200px',
+                    height: '200px',
+                    clipPath: 'polygon(0 0, 100% 0, 100% 100%)',
+                    WebkitClipPath: 'polygon(0 0, 100% 0, 100% 100%)',
                     right: '0',
                     top: '0',
                     zIndex: 1,
                   }}
                 ></div>
-
                 <InlineWidget
                   className='calendly'
                   url='https://calendly.com/atvoff-road-rezervari/atv-3'
@@ -159,17 +153,15 @@ function NewTicket() {
                   style={{
                     position: 'absolute',
                     backgroundColor: 'white',
-                    width: '0',
-                    height: '0',
-                    borderLeft: '100px solid transparent',
-                    borderRight: '100px solid transparent',
-                    borderBottom: '200px solid white',
+                    width: '200px',
+                    height: '200px',
+                    clipPath: 'polygon(0 0, 100% 0, 100% 100%)',
+                    WebkitClipPath: 'polygon(0 0, 100% 0, 100% 100%)',
                     right: '0',
                     top: '0',
                     zIndex: 1,
                   }}
                 ></div>
-
                 <InlineWidget
                   className='calendly'
                   url='https://calendly.com/atvoff-road-rezervari/atv-4'
@@ -194,17 +186,15 @@ function NewTicket() {
                   style={{
                     position: 'absolute',
                     backgroundColor: 'white',
-                    width: '0',
-                    height: '0',
-                    borderLeft: '100px solid transparent',
-                    borderRight: '100px solid transparent',
-                    borderBottom: '200px solid white',
+                    width: '200px',
+                    height: '200px',
+                    clipPath: 'polygon(0 0, 100% 0, 100% 100%)',
+                    WebkitClipPath: 'polygon(0 0, 100% 0, 100% 100%)',
                     right: '0',
                     top: '0',
                     zIndex: 1,
                   }}
                 ></div>
-
                 <InlineWidget
                   className='calendly'
                   url='https://calendly.com/atvoff-road-rezervari/bicicleta-1'
@@ -229,17 +219,15 @@ function NewTicket() {
                   style={{
                     position: 'absolute',
                     backgroundColor: 'white',
-                    width: '0',
-                    height: '0',
-                    borderLeft: '100px solid transparent',
-                    borderRight: '100px solid transparent',
-                    borderBottom: '200px solid white',
+                    width: '200px',
+                    height: '200px',
+                    clipPath: 'polygon(0 0, 100% 0, 100% 100%)',
+                    WebkitClipPath: 'polygon(0 0, 100% 0, 100% 100%)',
                     right: '0',
                     top: '0',
                     zIndex: 1,
                   }}
                 ></div>
-
                 <InlineWidget
                   className='calendly'
                   url='https://calendly.com/atvoff-road-rezervari/bicicleta-2'
