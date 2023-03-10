@@ -40,7 +40,7 @@ function NewTicket() {
               </option>
             </select>
           </div>
-          <div styles={{ position: 'relative' }}>
+          <div style={{ position: 'relative' }}>
             {product === 'ATV1' && (
               <div
                 style={{
