@@ -16,13 +16,16 @@ function Header() {
   return (
     <header className='header'>
       <div className='logo'>
-        <Link to='/'>Platforma Rezervari ATV</Link> 
+        <Link to='/'>Platforma Rezervari ATV</Link>
       </div>
       <ul>
-        {/* de schimbat linkurile */}
         {user ? (
-          <li>
-            <button className='btn' onClick={onLogout}>
+          <li style={{ display: 'flex', alignItems: 'center' }}>
+            <button
+              className='btn'
+              onClick={onLogout}
+              style={{ marginRight: '1rem' }}
+            >
               <FaSignOutAlt /> Delogare
             </button>
           </li>
