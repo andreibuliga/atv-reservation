@@ -13,7 +13,7 @@
     "@mui/icons-material": "^5.11.11",
     "@mui/material": "^5.11.12",
     "@mui/x-data-grid": "^5.17.24",
-    "@mui/x-data-grid-generator": "^6.0.0",
+    "@mui/x-data-grid-generator": "^7.0.0",
     "@mui/x-data-grid-pro": "^6.0.0",
     "@reduxjs/toolkit": "^1.9.1",
     "axios": "^0.24.0",
